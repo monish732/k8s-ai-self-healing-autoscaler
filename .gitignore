@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Docker
+*.tar
+
+# Kubernetes
+*.secret.yaml
+*.config
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# WSL temp
+*.swp
+*.swo
+
+# Local env files
+.env
+
+# Python cache folders
+__pycache__/

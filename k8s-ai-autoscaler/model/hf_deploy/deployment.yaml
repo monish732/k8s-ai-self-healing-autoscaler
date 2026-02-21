@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-self-healing
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ai-self-healing
+
+  template:
+    metadata:
+      labels:
+        app: ai-self-healing
+
+    spec:
+      containers:
+      - name: ai-container
+        image: ai-self-healing:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
