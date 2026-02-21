@@ -268,4 +268,3 @@ If system load increases:
 👨‍💻 Author
 
 Monish C 
-AI + Kubernetes Enthusiast
