@@ -1,0 +1,13 @@
+CRITICAL:
+    Patient Vitals
+    Patient Report
+    Emergency & operation theatre systems
+    Lab Report
+    Pharmacy & medication system
+
+NON-CRITICAL:
+    Appointments
+    Hospital website
+    HR & payroll system
+    Analytics & reporting
+    CCTV storage & monitoring
